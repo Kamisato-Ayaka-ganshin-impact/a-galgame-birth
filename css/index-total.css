@@ -1,0 +1,51 @@
+.bg-2 {
+    position: relative;
+ 
+    height: 400px;
+    text-align: center;
+    
+    top: -400px;
+    left: 300px;
+}
+
+
+.main {
+
+    position: relative;
+    margin-left: 219px;
+    margin-top: 10px;
+    width: 1400px;
+    height: 455px;
+    top: 100px;
+    background-color: aqua
+    ;
+}
+
+.bg{
+    width: 2000px;
+    height: 500px;
+    margin-left: 300px;
+    float: left;
+}
+
+
+.shortcut .f1{
+    width: 100px;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.shortcut .f2{
+    height: 400px;
+    width: 712px;
+}
+
+.shortcut .f3
+{
+    position: relative;
+    width: 100px;
+    height: 400px;
+    background-color: aquamarine;
+    right: -1300px;
+    top: -800px;
+}

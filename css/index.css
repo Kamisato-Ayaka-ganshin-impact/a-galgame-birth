@@ -1,0 +1,28 @@
+
+.bg{
+    float: left;
+}
+
+.bg-1 {
+    position: relative; /* 设定父元素为相对定位 */
+  }
+  
+   .hd-1{
+    position: absolute; /* 绝对定位 */
+    top: 50%; /* 根据需要设置文字位置 */
+    left: 50%; /* 根据需要设置文字位置 */
+    transform: translate(-50%, -50%); /* 将文字居中 */
+    color: white; /* 设置文字颜色，以便与背景图片对比 */
+    font-size: 100px; /* 设置文字大小 */
+  }
+   .hd-2{
+    position: absolute; /* 绝对定位 */
+    top: 60%; /* 根据需要设置文字位置 */
+    left: 50%; /* 根据需要设置文字位置 */
+    transform: translate(-50%, -50%); /* 将文字居中 */
+    color: white; /* 设置文字颜色，以便与背景图片对比 */
+    font-size: 100px; /* 设置文字大小 */
+  }
+
+
+  
