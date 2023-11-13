@@ -9,17 +9,7 @@
 }
 
 
-.main {
 
-    position: relative;
-    margin-left: 219px;
-    margin-top: 10px;
-    width: 1400px;
-    height: 455px;
-    top: 100px;
-    background-color: aqua
-    ;
-}
 
 .bg{
     width: 2000px;
@@ -29,23 +19,13 @@
 }
 
 
-.shortcut .f1{
-    width: 100px;
-    height: 400px;
-    background-color: aquamarine;
-}
 
-.shortcut .f2{
-    height: 400px;
-    width: 712px;
-}
-
-.shortcut .f3
+.main .menu{
+    width: 900px;
+    height: 2000px;
+    background-color: aqua;
+}     
+.main .menu .ul .li
 {
-    position: relative;
-    width: 100px;
-    height: 400px;
-    background-color: aquamarine;
-    right: -1300px;
-    top: -800px;
+    float: left;
 }

@@ -20,3 +20,4 @@ var slideIndex = 1;
   setInterval(function() {
     plusSlides(1);
   }, 2000);
+  
