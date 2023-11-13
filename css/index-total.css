@@ -18,14 +18,45 @@
     float: left;
 }
 
-
+.main
+{
+    position: relative;
+    margin-top:10px
+}
 
 .main .menu{
     width: 900px;
     height: 2000px;
     background-color: aqua;
 }     
-.main .menu .ul .li
+.main .menu li
 {
-    float: left;
+   font-size: 20px;
+    height: 200px;
+    background-color: pink;
 }
+
+.main .menu p
+{
+    margin:10px 20px 10px;
+    text-align: center;
+}
+
+.main .menu h2
+{
+    text-align: center;
+}
+
+
+.main .images
+{
+    width: 900px;
+}
+
+
+ .main .fr .images  img
+{
+/*  右边图片大小设定 */
+width: 100%;
+}
+
