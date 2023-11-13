@@ -1,7 +1,22 @@
 .w
 {
-    width: 2000px;
+    width: 1800px;
     margin:0 auto;
+}
+
+.shortcut-1
+{
+    height: 90px;
+    line-height: 90px;
+    background-color: #45dfca;
+}
+
+.shortcut-1 ul li 
+{
+    float: left;
+    width: 332px;
+    font-size: 28px;
+    text-align: center;
 }
 
 .fl{
@@ -11,4 +26,15 @@
 .fr
 {
     float:right;
+}
+
+/* 选择所有偶数的小li */
+
+.shortcut-1 ul li:nth-child(even)
+{
+    width: 5px;
+    height: 70px;
+    background-color: #666;
+    margin:9px 15px 0;
+
 }
