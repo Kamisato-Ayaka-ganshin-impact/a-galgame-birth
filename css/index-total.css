@@ -25,14 +25,64 @@
 }
 
 .main .menu{
-    width: 900px;
+    width: 550px;
     height: 2000px;
     background-color: aqua;
-}     
+} 
+
+.game
+{
+    text-align: center;
+}
+.game-1,.game-2
+
+{
+    
+    position: relative;
+    /* display:inline-block; */
+   
+}
+.game-1:hover::before
+{
+    content: "玩柚子社玩的";
+    position: absolute;
+    top: -20px; /* 调整文字显示的位置 */
+    left: 50%;
+   
+    transform: translateX(-50%);
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+    opacity: 1;
+    z-index: 1;
+
+}
+
+.game-2:hover::before
+{
+    content: "又到了白色相簿的季节";
+    position: absolute;
+    top: -20px; /* 调整文字显示的位置 */
+    left: 50%;
+   
+    transform: translateX(-50%);
+    background-color: #f0f0f0;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+    opacity: 1;
+    z-index: 1;
+
+}
 .main .menu li
 {
    font-size: 20px;
-    height: 200px;
+    /* height: 200px; */
     background-color: pink;
 }
 
@@ -50,7 +100,8 @@
 
 .main .images
 {
-    width: 900px;
+    width: 1250px;
+  
 }
 
 
