@@ -81,7 +81,7 @@ Particle.prototype.draw = function () {
 Particle.prototype.link = function () {
     for (const particle of particles) {
         const distance = getDistance(this, particle);
-        if (distance < 150) {
+        if (distance < 250) {
             ctx.beginPath();
             ctx.lineWidth = 0.1;
             ctx.strokeStyle = this.color;

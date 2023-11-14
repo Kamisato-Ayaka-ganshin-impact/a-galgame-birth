@@ -1,4 +1,5 @@
 .slideshow-container {
+    float:right;
     position: relative;
     max-width: 100%;
     margin: auto;
