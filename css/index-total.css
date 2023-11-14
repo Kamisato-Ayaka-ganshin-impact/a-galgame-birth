@@ -32,7 +32,7 @@
 .main .menu li
 {
    font-size: 20px;
-    height: 200px;
+    /* height: 200px; */
     background-color: pink;
 }
 
