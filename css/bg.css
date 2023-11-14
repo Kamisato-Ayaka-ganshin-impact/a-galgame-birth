@@ -18,8 +18,24 @@
 
   .content {
     position: relative;
+    display: flex;
+    align-items: flex-start;
     z-index: 1; /* 将文字内容放在上层 */
     color: #fff; /* 文字颜色，根据需要调整 */
     padding: 20px; /* 为文字内容添加一些内边距 */
     background: rgba(0, 0, 0, 0.5); /* 添加半透明背景以增加对比度 */
+  }
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image {
+    padding-left: 20px;
+    max-width: 50%;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
