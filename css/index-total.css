@@ -21,7 +21,9 @@
 .main
 {
     position: relative;
-    margin-top:10px
+    margin-top:10px;
+    height: 1500px;
+    
 }
 
 .main .menu{

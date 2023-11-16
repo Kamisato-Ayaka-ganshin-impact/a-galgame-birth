@@ -39,3 +39,19 @@
     margin:9px 15px 0;
 
 }
+
+/* 尾部模块制作 */
+.footer
+{
+    margin-top:10px;
+    height: 200px;
+    background-color: #9b9595;
+    
+}
+
+.text
+{
+   height: 330px;
+    float: left;
+    text-align: center;
+}
