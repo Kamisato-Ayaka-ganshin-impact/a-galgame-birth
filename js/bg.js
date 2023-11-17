@@ -68,7 +68,7 @@ Particle.prototype.move = function () {
 }
 
 const particles = [];
-for (let i = 0; i < 118; i++) {
+for (let i = 0; i < 218; i++) {
   const particle = new Particle();
   particle.create();
   particles.push(particle);
