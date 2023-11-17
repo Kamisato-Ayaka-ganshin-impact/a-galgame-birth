@@ -3,9 +3,6 @@
     padding: 0;
   }
 
-  body {
-    overflow: hidden; /* 防止滚动条出现 */
-  }
 
   canvas {
     position: fixed;
