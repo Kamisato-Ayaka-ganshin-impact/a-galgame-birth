@@ -1,144 +1,75 @@
-<script>
-  </script>
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>01-不用JS实现普通轮播图</title>
-  </head>
-  <body>
+    <title>Galgame特点介绍</title>
     <style>
-      :root {
-        --width: 50rem;
-        --height: 40rem;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-      }
-      body {
-        display: flex;
-        justify-content: center;
-        height: 100vh;
-        align-items: center;
-      }
-      div.slide {
-        width: var(--width);
-        height: var(--height);
-        border: .2rem dashed purple;
-        overflow: hidden;
-  
-        /* 给input做定位参考 */
-        position: relative;
-      }
-      ul.list {
-        width: calc(var(--width) * 4);
-        height: inherit;
-        /* border: .5rem dashed blue; */
-        position: relative;
-        z-index: -1;
-        animation: move 3s ease 1s infinite;
-      }
-      @keyframes move {
-        0% {
-          transform: translate(calc( 0 * var(--width)));
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
         }
-        33% {
-          transform: translate(calc( -1 * var(--width)));
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
         }
-        66% {
-          transform: translate(calc( -2 * var(--width)));
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
-        100% {
-          transform: translate(calc( -3 * var(--width)));
+
+        main {
+            max-width: 800px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            margin-top: 20px;
         }
-      }
-      li.item {
-        width: var(--width);
-        height: inherit;
-        box-sizing: border-box;
-        border: .2rem solid pink;
-        background-color: wheat;
-        color: #fff;
-        font-size: 4rem;
-        text-align: center;
-        line-height: var(--height);
-        float: left;
-      }
-      input {
-        display: none;
-      }
-      .labels {
-        position: absolute;
-        bottom: .5rem;
-        /* 注意层级 */
-        z-index: 1;
-        width: inherit;
-        /* background-color: red; */
-        justify-content: center;
-        display: none;
-      }
-      .slide:hover .labels {
-        display: flex;
-      }
-      .slide:hover {
-        cursor: pointer;
-      }
-      .labels label {
-        width: .5rem;
-        height: .5rem;
-        border-radius: 50%;
-        margin: 0 .3rem;
-        border: .1rem solid #fff;
-        background-color: transparent;
-        box-sizing: border-box;
-        cursor: pointer;
-      }
-      input[id=pic1]:checked ~ .labels label[for=pic1],
-      input[id=pic2]:checked ~ .labels label[for=pic2],
-      input[id=pic3]:checked ~ .labels label[for=pic3] {
-        background-color: #fff;
-        border: .1rem solid #fff;
-      }
-      input[id=pic1]:checked ~ ul.list {
-        transform: translate(calc( 0 * var(--width)));
-      }
-      input[id=pic2]:checked ~ ul.list {
-        transform: translate(calc( -1 * var(--width)));
-      }
-      input[id=pic3]:checked ~ ul.list {
-        transform: translate(calc( -2 * var(--width)));
-      }
-      .slide:hover .list {
-        animation-play-state: paused;
-        animation: none;
-      }
+
+        section {
+            margin-bottom: 20px;
+        }
     </style>
-    <div class="slide">
-      <!-- 新增 -->
-      <input type="radio" name='pic' id='pic1' checked>
-      <input type="radio" name='pic' id='pic2'>
-      <input type="radio" name='pic' id='pic3'>
-      <div class="labels">
-        <label for="pic1"></label>
-        <label for="pic2"></label>
-        <label for="pic3"></label>
-      </div>
-      <ul class="list">
-        <li class="item">
-          <img src="images/yzs.png" alt="Image 1">
-        </li>
-        <li class="item">
-          <img src="path/to/your/image2.jpg" alt="Image 2">
-        </li>
-        <li class="item">
-          <img src="path/to/your/image3.jpg" alt="Image 3">
-        </li>
-        
-      </ul>
-    </div>
-  </body>
-  </html>
+</head>
+<body>
+    <header>
+        <h1>Galgame特点介绍</h1>
+    </header>
+    <main>
+        <section>
+            <h2>视觉小说风格</h2>
+            <p>Galgame以其精美的画面和富有表现力的角色设计而闻名。玩家可以通过精美的插画和角色立绘来体验故事情节，增强沉浸感。</p>
+        </section>
+        <section>
+            <h2>丰富的剧情分支</h2>
+            <p>Galgame通常具有多个剧情分支和结局，玩家的选择会影响游戏进程和结局。这种非线性的叙事方式增加了游戏的回放价值和乐趣。</p>
+        </section>
+        <section>
+            <h2>恋爱元素</h2>
+            <p>许多galgame都包含恋爱要素，玩家可以在游戏中与虚拟角色建立感情联系，甚至追求不同角色的恋爱线路，增添了游戏的情感体验。</p>
+        </section>
+        <!-- 添加更多的内容部分 -->
+    </main>
+
+</body>
+</html>
