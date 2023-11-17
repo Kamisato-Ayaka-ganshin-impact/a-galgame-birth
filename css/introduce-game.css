@@ -42,6 +42,11 @@
     width: 80%;
   }
 
+  .slideshow-container p
+  {
+    text-align: center;
+    font-size: 30px;
+  }
 
   .container {
     position: relative;
