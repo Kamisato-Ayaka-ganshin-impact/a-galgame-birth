@@ -46,12 +46,17 @@
     margin-top:10px;
     height: 200px;
     background-color: #9b9595;
+    text-align: center;
+  
     
 }
 
 .text
 {
+    position: relative;
    height: 330px;
-    float: left;
+   font-size: 40px;
+   line-height:206px;
     text-align: center;
 }
+
