@@ -1,4 +1,5 @@
 .slideshow-container {
+  display: inline-block;
     position: relative;
     max-width: 100%;
     margin: auto;

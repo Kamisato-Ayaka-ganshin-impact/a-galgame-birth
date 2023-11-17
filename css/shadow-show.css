@@ -1,5 +1,4 @@
 .slideshow-container {
-    float:right;
     position: relative;
     max-width: 100%;
     margin: auto;
@@ -34,27 +33,4 @@
 
   .prev:hover, .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
-
-  .slideshow-container img
-  {
-    margin-left: 200px;
-    width: 80%;
-  }
-
-  .slideshow-container p
-  {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .container {
-    position: relative;
-  }
-  
-  .container img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }

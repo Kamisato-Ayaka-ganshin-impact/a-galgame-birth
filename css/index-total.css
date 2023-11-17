@@ -88,6 +88,18 @@
     /* background-color: pink; */
 }
 
+.intro h2
+{
+    text-align: center;
+}
+.intro img
+{
+   margin-left:20px ;
+   margin-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+
 .main .menu p
 {
     margin:10px 20px 10px;
@@ -105,6 +117,14 @@
     width: 1250px;
   
 }
+
+.fr .emjoy
+{
+    text-align: center;
+    font-size: 34px;
+    margin: 10px;
+}
+
 
 
  .main .fr .images  img
