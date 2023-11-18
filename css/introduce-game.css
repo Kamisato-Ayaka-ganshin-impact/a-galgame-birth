@@ -45,7 +45,7 @@
   .slideshow-container p
   {
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
   }
 
   .container {
@@ -62,5 +62,11 @@
   .slideshow-container .text-1
   {
     margin-top: -30px;
+    margin-left: 734px;
     font-size: 25px;
+  }
+
+
+  body {
+    background: linear-gradient(45deg, rgb(135, 206, 250),#ffffff);
   }
