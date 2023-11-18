@@ -28,7 +28,7 @@
 
 .main .menu{
     width: 550px;
-    height: 1500px;
+    height: 1477px;
     background-color:#cdd9d7;
 } 
 
@@ -131,5 +131,10 @@
 {
 /*  右边图片大小设定 */
 width: 100%;
+}
+
+.address
+{
+    margin-top: 80px;
 }
 

@@ -1,28 +1,40 @@
 
-.bg{
-    float: left;
+
+
+ul li
+{
+  text-align: center;
+  z-index: 110;
 }
 
-.bg-1 {
-    position: relative; /* 设定父元素为相对定位 */
+
+  .bg-1 img
+  {
+   
+    width: 100%;
+    z-index: -1;
+  }
+
+  .hd-2 {
+    position: relative;
   }
   
-   .hd-1{
-    position: absolute; /* 绝对定位 */
-    top: 50%; /* 根据需要设置文字位置 */
-    left: 50%; /* 根据需要设置文字位置 */
-    transform: translate(-50%, -50%); /* 将文字居中 */
-    color: white; /* 设置文字颜色，以便与背景图片对比 */
-    font-size: 100px; /* 设置文字大小 */
+  .hd-2:hover::after {
+    content: "这是悬浮时显示的文字";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f0f0f0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+    z-index: 2;
   }
-   .hd-2{
-    position: absolute; /* 绝对定位 */
-    top: 60%; /* 根据需要设置文字位置 */
-    left: 50%; /* 根据需要设置文字位置 */
-    transform: translate(-50%, -50%); /* 将文字居中 */
-    color: white; /* 设置文字颜色，以便与背景图片对比 */
-    font-size: 100px; /* 设置文字大小 */
-  }
+
+  
+  
 
 
   
