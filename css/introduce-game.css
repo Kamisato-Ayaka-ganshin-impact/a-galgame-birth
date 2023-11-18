@@ -58,3 +58,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .slideshow-container .text-1
+  {
+    margin-top: -30px;
+    font-size: 25px;
+  }
