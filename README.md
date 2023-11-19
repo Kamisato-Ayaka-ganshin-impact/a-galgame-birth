@@ -1,5 +1,6 @@
 # a-galgame-birth
-# 项目介绍：让GalGame再次伟大队
+# 序号：23
+# 队名：让GalGame再次伟大队
 
 ## 1. 功能
 本项目介绍了GalGame这一类型游戏的主要玩法、特点，以及如何玩GalGame的方法。
