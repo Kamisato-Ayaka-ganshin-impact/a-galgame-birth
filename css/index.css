@@ -1,10 +1,8 @@
-
-
-
 ul li
 {
   text-align: center;
-  z-index: 110;
+  margin-top: 20px;
+  z-index: 1;
 }
 
 
@@ -32,9 +30,8 @@ ul li
     display: block;
     z-index: 2;
   }
-
-  
-  
-
-
-  
+/* .hd-1{
+  background: linear-gradient(to right, #b75151, rgb(34, 0, 255), rgb(194, 194, 43), #070d01, #4055ab);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
