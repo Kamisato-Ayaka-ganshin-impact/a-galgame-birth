@@ -15,10 +15,28 @@ ul li
 
   .hd-2 {
     position: relative;
+    font-size: 90px;
+    color: #0dfbdc;
+    
+  }
+
+  .hd-1
+  {
+    font-size: 90px;
+    margin-top:-591px;
+    margin-left: 10px;
+    color: #2e5adb;
   }
   
+
+  .bg-color
+  {
+    color: #dded0b;
+  }
+
+  
   .hd-2:hover::after {
-    content: "这是悬浮时显示的文字";
+    content: "点此进入网页";
     position: absolute;
     top: 100%;
     left: 50%;
@@ -30,8 +48,11 @@ ul li
     display: block;
     z-index: 2;
   }
-/* .hd-1{
-  background: linear-gradient(to right, #b75151, rgb(34, 0, 255), rgb(194, 194, 43), #070d01, #4055ab);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
+
+
+
+  
+  
+
+
+  
